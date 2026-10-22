@@ -34,6 +34,11 @@
       document.getElementById('a').value = '';
       document.getElementById('b').value = '';
       document.getElementById('btn-subtract').click();
+      assert.equal(
+        document.getElementById('result').textContent,
+        'Please fill both inputs',
+        'Shows warning if inputs are empty'
+      );
     });
   </script>
 </body>
