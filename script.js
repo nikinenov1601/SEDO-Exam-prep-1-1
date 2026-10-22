@@ -21,3 +21,6 @@ document.getElementById('btn-add')
 
 document.getElementById('btn-subtract')
   .addEventListener('click', () => calculateAndDisplay(subtract));
+
+document.getElementById('btn-multiply')
+  .addEventListener('click', () => calculateAndDisplay(multiply));
